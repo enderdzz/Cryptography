@@ -1,0 +1,11 @@
+e2 93 97(h) e2 93 a7(x) e2 93 9f(p) 7b({) e2 93 99(j) e2 93 9e(o) e2 91 a0(1) e2 93 9d(n) 5f
+e2 93 a3(t) e2 93 97(h) e2 91 a2(3) 5f(_) e2 93 92(c) e2 93 9b(l) e2 93 a4(u) e2 93 91(a) 7d(})
+
+hxp{jo1n_th3_club}
+
+reference：http://orange-factory.com/sample/utf8/code1.html
+
+solution:
+1. You get a flag-like-pattern data file and find it's contains pairs of hex numbers and decode these numbers following ascii rules;
+2. After 5 passes you can get a 92-bit string, and it is shown above and its encoding format is utf-8;
+3. Decode them then get the flag.
